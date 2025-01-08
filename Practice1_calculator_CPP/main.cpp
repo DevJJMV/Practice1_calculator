@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    //Variables to store numbers given by the user.
+    //Declare variables to store numbers given by the user.
     double num1, num2;
 
     //Ask the user both numbers.
