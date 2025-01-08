@@ -1,18 +1,19 @@
 # Basic Console Calculator
 
-This project is a **basic calculator** developed in **C++**, designed to run in the console. The calculator allows users to perform basic mathematical operations as well as some advanced functions interactively.
+This is a **basic calculator** developed in **C++**, designed to run in the console. The calculator allows users to perform basic mathematical operations as well as some advanced functions interactively.
 
-## **Features**
+## **Features**🚩
 
 The calculator supports the following operations:
 
 1. **Basic Operations:**
-   - Addition
-   - Subtraction
-   - Multiplication
-   - Division
-   - Modulus (integer numbers only)
-   - Square root
+   - ![Addition](https://img.icons8.com/color/48/000000/plus-math.png) **Addition**
+   - ![Subtraction](https://img.icons8.com/color/48/000000/minus-math.png) **Subtraction**
+   - ![Multiplication](https://img.icons8.com/color/48/000000/multiply.png) **Multiplication**
+   - ![Division](https://img.icons8.com/color/48/000000/divide.png) **Division**
+   - ![Modulus](https://img.icons8.com/color/48/000000/percentage.png) **Modulus (integer numbers only)** 
+   - ![Square Root](https://img.icons8.com/color/48/000000/square-root.png) **Square Root**
+
 
 2. **Additional Operations:**
    - Power
@@ -22,42 +23,27 @@ The calculator supports the following operations:
 
 ## **Requirements**
 
-To compile and execute the project, you need the following:
+If you're new in C++, you need a compiler to execute the project, could be:
 
-- A compatible C++ compiler (e.g., GCC, MinGW, or MSVC).
-- A code editor or integrated development environment (IDE) such as **Visual Studio Code**, **CLion**, or any other tool of your choice.
-- A compatible operating system (Windows, Linux, or macOS).
+- GCC, MinGW, or MSVC.
+- (IDE) such as **Visual Studio Code**, **CLion**, or any other tool of your choice.
 
 ## **How to Compile and Run**
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/basic-calculator
-   cd basic-calculator
+   git clone https://github.com/your_username/Practice1_calculator_CPP
+   cd Practice1_calculator_CPP
 2. Compile the main file (main.cpp) using a C++ compiler. For example:
-g++ main.cpp -o calculator
+   ```bash
+   g++ main.cpp -o calculator
+3. Run the program:
+    ```bash
+   ./calculator
 
 
 3. Run the program:
-./calculator
+   ```bash
+   ./calculator
 
-## Usage
-The program prompts the user to input two real numbers and select an operation from the available list. Based on the selected operation, the result will be displayed in the console.
-## Example:
-Enter the first number: 10
-Enter the second number: 5
 
-Select an operation:
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
-5. Modulus
-6. Square Root
-7. Power
-8. Average
-9. Logarithm (base 10)
-10. Natural Logarithm
-
-Option: 1
-Result: 10 + 5 = 15
