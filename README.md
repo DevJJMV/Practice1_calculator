@@ -1,6 +1,6 @@
 # Basic Console Calculator
 
-This is a **basic calculator** developed in **C++**, designed to run in the console. The calculator allows users to perform basic mathematical operations as well as some advanced functions interactively,created in some programming languages such as:<br>
+This is a **basic calculator** designed to run in the log console. The calculator allows users to perform basic mathematical operations as well as some advanced functions interactively,developed in some programming languages such as:<br>
    👉![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)<br>
    👉![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)<br>
    👉![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)<br>
@@ -27,12 +27,6 @@ The calculator supports the following operations:
    - Logarithm (base 10)
    - Natural logarithm
 
-## **Requirements**
-
-If you're new in C++, you need a compiler to execute the project, could be:
-
-- GCC, MinGW, or MSVC.
-- (IDE) such as **Visual Studio Code**, **CLion**, or any other tool of your choice.
 
 ## **How to Compile and Run**
 
