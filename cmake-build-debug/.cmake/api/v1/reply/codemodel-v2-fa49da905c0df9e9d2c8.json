@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/juanj/Downloads/Dev/C++/cmake-build-debug",
-		"source" : "C:/Users/juanj/Downloads/Dev/C++"
+		"build" : "C:/Users/juanj/Downloads/Dev/C++/Practice1_calculator_CPP/cmake-build-debug",
+		"source" : "C:/Users/juanj/Downloads/Dev/C++/Practice1_calculator_CPP"
 	},
 	"version" : 
 	{
