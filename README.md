@@ -34,14 +34,6 @@ The calculator supports the following operations:
    ```bash
    git clone https://github.com/your_username/Practice1_calculator_CPP
    cd Practice1_calculator_CPP
-2. Compile the main file (main.cpp) using a C++ compiler. For example:
-   ```bash
-   g++ main.cpp -o calculator
-3. Run the program:
-    ```bash
-   ./calculator
-
-
-3. Run the program:
+2. Run the program:
    ```bash
    ./calculator
