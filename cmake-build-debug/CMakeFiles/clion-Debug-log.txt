@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\Teaf2\Documents\GitHub\Practice1_calculator_CPP Select CMakeLists.txt
