@@ -21,10 +21,14 @@ int main() {
     cout<<"4. Division\n";
     cout<<"5. Modulus (Integers only)\n";
     cout<<"6. Square Root (applied to first number)\n";
+    cout<<"7. Power \n";
+    cout<<"8. Logarithm\n";
+    cout<<"9. Natural Logarithm\n";
+    cout<<"10. average\n";
 
     //Now we need to read the user option
     int option;
-    cout<<"Please, enter your operation20:\n ";
+    cout<<"Please, enter your operation:\n ";
     cin>>option;
 
     //To evaluate the option given by the user we'll use a Switch
@@ -64,6 +68,33 @@ int main() {
             } else {
                 cout << "Error: Cannot calculate square root of a negative number!" << endl;
             }
+        break;
+
+        case 7: // Power
+                cout << "Result:  " << num1 << " raised to " << num2 << " = " << pow(num1, num2) << endl;
+        break;
+
+        case 8: // Logarithm base 10
+            if (num1 > 0) {
+                cout << "Result: Logarithm base 10 of " << num1 << " = " << log10(num1) << endl;
+            } else {
+                cout << "Error: Logarithm base 10 is only defined for positive numbers." << endl;
+            }
+
+        break;
+
+        case 9: // Natural logarithm
+            if (num1 > 0) {
+                cout << "Result: Natural logarithm of " << num1 << " = " << log(num1) << endl;
+            } else {
+                cout << "Error: Natural logarithm is only defined for positive numbers." << endl;
+            }
+        break;
+
+        case 10: // Average
+
+            cout << "Result: The average of " << num1 << " and " << num2 << " = " << (num1 + num2) / 2 << endl;
+
         break;
 
         default: // Invalid option

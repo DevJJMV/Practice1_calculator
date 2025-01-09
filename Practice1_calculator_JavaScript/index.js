@@ -1,5 +1,5 @@
-//For javascript we don't have to create a project, with just an Index.js file and NPM dependences 
-//we can develop the logic of the calculator
+//Using javascript we don't have to create a project, with just an Index.js file and NPM dependences 
+//we may develop the logic of the calculator
 
 //First we have to declare the variables
 let num1, num2;
