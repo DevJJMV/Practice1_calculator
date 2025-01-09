@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.Math;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,13 +16,18 @@ public class Main {
         num2 = sc.nextDouble();
 
         // Create a list to show the operations.
-        System.out.println("\nSelect an operation:");
+        System.out.println("Select an operation:");
         System.out.println("1. Addition");
         System.out.println("2. Subtraction");
         System.out.println("3. Multiplication");
         System.out.println("4. Division");
         System.out.println("5. Modulus (Integers only)");
         System.out.println("6. Square Root (applied to first number)");
+        System.out.println("7: Power");
+        System.out.println("8: Logarithm (Base 10)");
+        System.out.println("9: Natural Logarithm");
+        System.out.println("10: Average");
+
 
         // Read the operation option selected by the user using a Scanner.
         System.out.print("Please, enter your operation: ");
@@ -63,6 +69,30 @@ public class Main {
                 } else {
                     System.out.println("Error: Cannot calculate square root of a negative number!");
                 }
+                break;
+
+            case 7: // Power
+                System.out.println("Result: " + num1 + " raised to " + num2 + " = " + Math.pow(num1, num2));
+                break;
+
+            case 8: // Logarithm base 10
+                if (num1 > 0) {
+                    System.out.println("Result: Logarithm base 10 of " + num1 + " = " + Math.log10(num1));
+                } else {
+                    System.out.println("Error: Logarithm base 10 is only defined for positive numbers.");
+                }
+                break;
+
+            case 9: // Natural logarithm
+                if (num1 > 0) {
+                    System.out.println("Result: Natural logarithm of " + num1 + " = " + Math.log(num1));
+                } else {
+                    System.out.println("Error: Natural logarithm is only defined for positive numbers.");
+                }
+                break;
+
+            case 10: // Average
+                System.out.println("Result: The average of " + num1 + " and " + num2 + " = " + ((num1 + num2) / 2));
                 break;
 
             default: // Invalid option
