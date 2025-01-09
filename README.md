@@ -2,9 +2,7 @@
 
 This is a **basic calculator** designed to run in the log console. The calculator allows users to perform basic mathematical operations as well as some advanced functions interactively,developed in some programming languages such as:<br>
    👉![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)<br>
-   👉![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)<br>
    👉![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)<br>
-   👉![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)<br>
    👉![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)<br>
    👉![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)<br>
    
