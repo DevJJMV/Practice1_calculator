@@ -60,8 +60,31 @@ switch (option) {
             console.log("Error: Cannot calculate square root of a negative number!");
         }
         break;
+    case 7: // Power
+        console.log('Result: ${ num1 } raised to ${ num2 } = ${ Math.pow(num1, num2) }');
+        break;
+
+    case 8: // Logarithm base 10
+        if (num1 > 0) {
+            console.log('Result: Logarithm base 10 of ${ num1 } = ${ Math.log10(num1) }');
+        } else {
+            console.log("Error: Logarithm base 10 is only defined for positive numbers.");
+        }
+        break;
+
+    case 9: // Natural logarithm
+        if (num1 > 0) {
+            console.log('Result: Natural logarithm of ${ num1 } = ${ Math.log(num1) }');
+        } else {
+            console.log("Error: Natural logarithm is only defined for positive numbers.");
+        }
+        break;
+
+    case 10: // Average
+        console.log('Result: The average of ${ num1 } and ${ num2 } = ${(num1 + num2) / 2}');
+break;
 
     default: // Invalid option
-        console.log("Invalid option selected. Please try again and select a correct operation.");
-        break;
+console.log("Invalid option selected. Please try again and select a correct operation.");
+break;
 }
